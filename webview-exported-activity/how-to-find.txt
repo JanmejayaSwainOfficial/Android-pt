@@ -1,0 +1,31 @@
+Step-1
+--------
+
+1st check 
+
+acitivity  have exported= true
+
+intent filter (activity with webview)
+
+
+
+step-2
+------
+
+search
+
+loadurl() 
+
+
+step-3
+---------
+
+url being loaded is comming from intent
+
+intent.getData() , intent.getExtras, intent.getStringExtras, intent.getData 
+
+
+analyz and exploit it
+
+then exploit poc
+
