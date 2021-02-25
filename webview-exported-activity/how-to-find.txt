@@ -29,3 +29,8 @@ analyz and exploit it
 
 then exploit poc
 
+
+for intent.getData use -d  during exploitation
+for intent.getExtras use -e during exploitation
+intent.getStringExtras use -es during exploitation
+
